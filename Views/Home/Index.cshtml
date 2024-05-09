@@ -1,0 +1,92 @@
+﻿@{
+}
+
+@* <div class="text-center">
+    <h5 class="display-4">Welcome</h5>
+@*     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> 
+</div> *@
+<div class="row">
+    <div class="col-lg-9 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5"> Login Here</h2>
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Firstname</label>
+                <div class="col-sm-8">
+                    <input class="form-control" name="Fname" />
+                </div>
+
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Lastname</label>
+                <div class="col-sm-8">
+                    <input class="form-control" name="Lname" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                    <input class="form-control" name="email" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Phone</label>
+                <div class="col-sm-8">
+                    <input class="form-control" name="phone" />
+                </div>
+            </div>
+
+            @* <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Year Level</label>
+                <div class="col-sm-8">
+
+                    <seclect class="form-select" name="year">
+                        <option >1</option>
+                        <option >2</option>
+                        <option >3</option>
+                        <option >4</option>
+                    </seclect>
+                </div>
+            </div> *@
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <label class="col-sm-4 col-form-label">Year Level</label>
+                </div>
+
+                <div class="col row">
+                    <div class="col">
+                        <select class="form-select" name="Year">
+                            <option>1st Year</option>
+                            <option>2nd Year</option>
+                            <option>3rd Year</option>
+                            <option>4th Year</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <label class="col-sm-4 col-form-label">Course</label>
+                </div>
+
+                <div class="col row">
+                    <div class="col">
+                        <select class="form-select" name="course">
+                            <option>Computer Engineering</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class=" offset-sm-4" col-sm-8">
+                    <button type="Submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
